@@ -14,10 +14,10 @@ namespace HomeWork10
                 Console.WriteLine("Введите количество градусов: ");
                 int gradus = int.Parse(Console.ReadLine());
 
-                Console.WriteLine("Введите количество минут");
+                Console.WriteLine("Введите количество угловых минут");
                 int min = int.Parse(Console.ReadLine());
 
-                Console.WriteLine("Введите количество секунд");
+                Console.WriteLine("Введите количество угловых секунд");
                 int sec = int.Parse(Console.ReadLine());
 
                 corner = new Corner(gradus, min, sec);
